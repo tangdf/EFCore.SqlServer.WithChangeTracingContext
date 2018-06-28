@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Threading;
 
-namespace EFCore.Test
+// ReSharper disable once CheckNamespace
+namespace Microsoft.EntityFrameworkCore
 {
     internal class ChangeTracingContext:IDisposable
     {

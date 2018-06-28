@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>Microsoft.EntityFrameworkCore.SqlServer.WithNoLock</AssemblyName>
-    <RootNamespace>Microsoft.EntityFrameworkCore.SqlServer.WithNoLock</RootNamespace>
+    <AssemblyName>Microsoft.EntityFrameworkCore.SqlServer.WithChangeTracingContext</AssemblyName>
+    <RootNamespace>Microsoft.EntityFrameworkCore.SqlServer.WithChangeTracingContext</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

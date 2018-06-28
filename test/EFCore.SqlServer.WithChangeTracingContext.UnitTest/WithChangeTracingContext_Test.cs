@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 using System.Text;
-using EFCore.Test;
+using Microsoft.EntityFrameworkCore;
 using Xunit;
 
 namespace EFCore.SqlServer.WithChangeTracingContext.UnitTest
@@ -39,7 +39,7 @@ namespace EFCore.SqlServer.WithChangeTracingContext.UnitTest
 
               sql = DumpSql();
 
-            Assert.DoesNotContain("With Change_Tracking_Context(@Change_Tracking_Context)", sql);
+            Assert.DoesNotContain("Change_Tracking_Context", sql);
 
         }
  

@@ -5,7 +5,8 @@ using Microsoft.EntityFrameworkCore.SqlServer.Update.Internal;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Update;
 
-namespace EFCore.Test
+// ReSharper disable once CheckNamespace
+namespace Microsoft.EntityFrameworkCore
 {
     public class WithChangeTracingContextSqlServerModificationCommandBatchFactory : SqlServerModificationCommandBatchFactory
     {

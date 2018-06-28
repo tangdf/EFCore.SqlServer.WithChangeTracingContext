@@ -1,5 +1,4 @@
-﻿using EFCore.Test;
-using Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal;
+﻿using Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal;
 using Microsoft.EntityFrameworkCore.SqlServer.Update.Internal;
 using Microsoft.EntityFrameworkCore.Update;
 
